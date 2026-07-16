@@ -1,16 +1,116 @@
-# React + Vite
+# 🛡️ PrivacyGuard Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern React-based frontend for **PrivacyGuard**, a Web Privacy & Security Analyzer that helps users evaluate the security posture of any website.
 
-Currently, two official plugins are available:
+## 📌 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+PrivacyGuard provides an intuitive dashboard to visualize website security analysis performed by the backend. Users can enter a website URL and instantly receive detailed security insights.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔍 Website URL Scanner
+- 📊 Overall Security Score
+- 🔒 HTTPS Security Analysis
+- 🛡️ Security Headers Report
+- 🍪 Cookie Security Analysis
+- 🔑 Session Security Detection
+- 👁️ Tracker Detection
+- 💡 Security Recommendations
+- 📱 Responsive User Interface
 
-## Expanding the Oxlint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+- React 19
+- Vite
+- Axios
+- CSS3
+- React Icons
+
+## 📂 Project Structure
+
+```
+frontend/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   ├── assets/
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/<your-username>/PrivacyGuard-Frontend.git
+```
+
+### Navigate to the project
+
+```bash
+cd PrivacyGuard-Frontend
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Start the development server
+
+```bash
+npm run dev
+```
+
+The application will run at:
+
+```
+http://localhost:5173
+```
+
+## 🔗 Backend
+
+This frontend communicates with the PrivacyGuard Django REST API.
+
+Backend Responsibilities:
+
+- Website Scanning
+- HTTPS Verification
+- Security Header Analysis
+- Cookie Analysis
+- Session Analysis
+- Tracker Detection
+- Security Score Calculation
+
+## 📸 Screenshots
+
+> Screenshots will be added after deployment.
+
+## 📈 Future Enhancements
+
+- Interactive Charts
+- PDF Security Reports
+- Dark Mode
+- Historical Scan Reports
+- User Authentication
+- Scan History Dashboard
+- Risk Level Visualization
+- OWASP-Based Security Checks
+
+## 👩‍💻 Author
+
+**Ananya A M**
+
+Computer Science Engineering Student
+
+## 📄 License
+
+This project is developed for learning, portfolio, and educational purposes.
