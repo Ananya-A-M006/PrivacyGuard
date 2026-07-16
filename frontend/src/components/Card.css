@@ -1,0 +1,41 @@
+.card{
+
+    background:white;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    box-shadow:0 4px 10px rgba(0,0,0,.08);
+
+    border:1px solid #e5e7eb;
+
+}
+
+.card h2{
+
+    margin-bottom:20px;
+
+    color:#2563eb;
+
+}
+
+.card p{
+
+    margin:10px 0;
+
+    color:#374151;
+
+}
+
+.card ul{
+
+    padding-left:20px;
+
+}
+
+.card li{
+
+    margin:10px 0;
+
+}

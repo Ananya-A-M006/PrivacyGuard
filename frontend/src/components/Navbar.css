@@ -1,0 +1,33 @@
+.navbar {
+    background: white;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-content {
+    height: 70px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+.navbar h2 {
+    color: #2563eb;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.navbar li {
+    cursor: pointer;
+    color: #4b5563;
+}
+
+.navbar li:hover {
+    color: #2563eb;
+}

@@ -1,0 +1,25 @@
+.score-card{
+
+    background:white;
+
+    margin:40px 0;
+
+    padding:40px;
+
+    border-radius:12px;
+
+    text-align:center;
+
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+
+}
+
+.score-card h1{
+
+    color:#2563EB;
+
+    font-size:60px;
+
+    margin:20px 0;
+
+}
